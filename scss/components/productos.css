@@ -1,0 +1,25 @@
+#productos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+#productos .title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+#productos #lista-productos {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+#productos #lista-productos .card {
+  padding: 0;
+  margin: 5px;
+  max-width: 300px;
+  position: none;
+}/*# sourceMappingURL=productos.css.map */

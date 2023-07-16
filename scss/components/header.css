@@ -1,0 +1,40 @@
+#header {
+  display: flex;
+  height: 80px;
+  background-color: #96CEB4;
+}
+#header .navegacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+#header .navegacion h1 {
+  color: #fff;
+}
+#header .navegacion .menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+}
+#header .navegacion .menu li {
+  list-style: none;
+}
+#header .navegacion .menu li a {
+  text-decoration: none;
+  margin: 10px 5px;
+  padding-left: 20px;
+  font-size: 15px;
+  color: #fff;
+}
+#header .navegacion .menu li a:hover {
+  color: #FFEEAD;
+}
+#header .navegacion .menu li #boton {
+  transition: 300ms all;
+  margin-left: 15px;
+}/*# sourceMappingURL=header.css.map */

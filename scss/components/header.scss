@@ -1,0 +1,52 @@
+@import "../basic/color";
+
+#header {
+    display: flex;
+    height: 80px;
+  
+
+    background-color: $blue;
+    .navegacion {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+        h1 {
+            color: #fff;
+        }
+
+        .menu {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            margin: 0;
+            li {
+                list-style: none;
+                a {
+                    text-decoration: none;
+                    margin: 10px 5px;
+                    padding-left: 20px;
+                    font-size: 15px;
+                    color: #fff;
+
+                    &:hover {
+                        color: $yellow;
+                    }
+                    
+                   
+                }  
+                #boton{
+                    transition: 300ms all;
+                    margin-left: 15px;
+
+                }            
+            }
+            
+            
+           
+        }
+    }
+}

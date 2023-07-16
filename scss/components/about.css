@@ -1,0 +1,10 @@
+#about {
+  min-height: 100vh;
+  background-color: red;
+}
+#about .about-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  text-align: center;
+}/*# sourceMappingURL=about.css.map */

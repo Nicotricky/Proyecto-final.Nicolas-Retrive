@@ -1,0 +1,66 @@
+[
+  {
+    "imagen": "./src/images/Carne.jpg",
+    "nombre": "Empanada de carne",
+    "descripcion": "Se pueden hacer de distintas formas. Si quieres hacerlas a la manera colombiana, se cocinan con patatas, carne y cebolla. Desde luego, están muy buenas y es un plato que llena, sobre todo si se toma por la noche.",
+    "precio": 1450,
+    "id": 1,
+    "cantidad": 1
+  },
+  {
+    "imagen": "./src/images/verdura.jpg",
+    "nombre": "Empanada de verdura",
+    "descripcion": "Una combinación que no tiene desperdicio es la del relleno de espinacas con pasas y piñones. Si quieres, pueden añadir un poco de bechamel para que tenga un toque más delicado o incluso hacer un sofrito de cebolla. Son unas empanadas intensas porque el gusto de las espinacas es fuerte, pero las pasas le dan un sabor dulce.",
+    "precio": 1750,
+    "id": 2,
+    "cantidad": 1
+  },
+  {
+    "imagen": "./src/images/Pescado.jpg",
+    "nombre": "Empanada de pescado",
+    "descripcion": "Quizás una de las empanadas más buenas. Compra un par de filetes de atún y hazlos a la plancha. Después añade la salsa de tomate y rellena la empanada.",
+    "precio": 2350,
+    "id": 3,
+    "cantidad": 1
+  },
+  {
+    "imagen": "./src/images/Pollo.jpg",
+    "nombre": "Empanada de pollo",
+    "descripcion": "Esta empanada es muy creativa. Entre sus ingredientes hay pollo, pimiento rojo y ajo. Luego se adereza con pimienta negra y aquellos a los que les guste el picante, pueden añadir la guindilla.",
+    "precio": 1450,
+    "id": 1,
+    "cantidad": 1
+  },
+  {
+    "imagen": "./src/images/fresa.jpg",
+    "nombre": "Empanada de fresa",
+    "descripcion": "Esta receta de Empanada de Fresas de Ana Frias de Muy Delish es deliciosa. Estas empanadas se derretirán en la boca, y la mejor parte es que esta receta hace 20 empanadas, perfectas para guardar y comer durante el día.",
+    "precio": 1850,
+    "id": 5,
+    "cantidad": 1
+  },
+  {
+    "imagen": "./src/images/dulce.jpg",
+    "nombre": "Empanada dulce",
+    "descripcion": "Es un postre que tal vez no se te haya ocurrido porque no es muy corriente a fecha de hoy, pero durante mucho tiempo las empanadillas de cabello de ángel estaban en todas las panaderías. Sencillamente se trata de rellenar la empanadilla con el cabello de ángel que puedes haber cocinado en casa y espolvorearla con azúcar.",
+    "precio": 2350,
+    "id": 6,
+    "cantidad": 1
+  },
+  {
+    "imagen": "./src/images/champiñon.jpg",
+    "nombre": "Empanada de champiñon",
+    "descripcion": "Una de las más originales es la empanada de setas. Se hace con cebollas, gambas peladas, ajo, huevo y champiñones. Son unas empanadas sofisticadas que, sin duda, llamarán la atención de tus invitados.",
+    "precio": 1950,
+    "id": 7,
+    "cantidad": 1
+  },
+  {
+    "imagen": "./src/images/clasica.jpg",
+    "nombre": "Empanada clasica",
+    "descripcion": "Las empanadas de toda la vida se hacen con huevo duro, aceitunas, salsa de tomate y atún. Todo se tiene que cortar muy pequeño y mezclarlo bien hasta que sea una pasta. Entonces se pone en el centro de la empanada y se cierra ayudándose con un tenedor. Tienes que saber que las puedes hacer fritas o en el horno. ¡En el horno son más saludables sin duda!",
+    "precio": 1700,
+    "id": 8,
+    "cantidad": 1
+  }
+]

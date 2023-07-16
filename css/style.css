@@ -1,0 +1,159 @@
+#header {
+  display: flex;
+  height: 80px;
+  background-color: #741774;
+}
+#header .navegacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+#header .navegacion h2 {
+  color: #fff;
+}
+#header .navegacion .menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+}
+#header .navegacion .menu li {
+  list-style: none;
+}
+#header .navegacion .menu li a {
+  text-decoration: none;
+  margin: 10px 5px;
+  padding-left: 20px;
+  font-size: 15px;
+  color: #fff;
+}
+#header .navegacion .menu li a:hover {
+  color: #ffeead;
+}
+#header .navegacion .menu li #boton {
+  transition: 300ms all;
+  margin-left: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.btn-vaciar {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.eliminar-item {
+  background-color: red;
+  border-radius: 50%;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#slider .carrusel {
+  max-height: 400px;
+}
+
+#productos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  height: fit-content;
+}
+#productos .title {
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+#productos #lista-productos {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+#productos #lista-productos .card {
+  padding: 0;
+  margin: 5px;
+  max-width: 300px;
+  position: none;
+}
+
+#footer {
+  display: flex;
+  height: 200px;
+  background-color: #000;
+}
+#footer .navegacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+#footer .navegacion h5 {
+  color: #fff;
+  font-size: 24px;
+}
+#footer .navegacion .menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+#footer .navegacion .menu li {
+  list-style: none;
+}
+#footer .navegacion .menu li a {
+  text-decoration: none;
+  margin: 10px 5px;
+  padding-left: 20px;
+  font-size: 15px;
+  color: #fff;
+}
+#footer .navegacion .menu li a:hover {
+  color: #ffeead;
+}
+
+#about .about-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+#about .content-service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+#about .content-service .service-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  padding: 5px;
+  background: #741774;
+  border-radius: 50%;
+}
+#about .content-service .service-item img {
+  width: 80%;
+}
+#about .content-service h4 {
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=style.css.map */

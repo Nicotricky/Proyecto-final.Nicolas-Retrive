@@ -1,0 +1,40 @@
+@import '../basic/color';
+
+#footer{
+    display: flex;
+    height: 200px;
+    background-color: #000;
+    .navegacion {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+        h5{
+            color: #fff;
+            font-size: 24px;
+        }
+        
+        .menu {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            li {
+                list-style: none;
+                a {
+                    text-decoration: none;
+                    margin: 10px 5px;
+                    padding-left: 20px;
+                    font-size: 15px;
+                    color: #fff;
+
+                    &:hover{
+                        color: $yellow;
+                    }
+                }
+            }
+        }
+    }
+}
